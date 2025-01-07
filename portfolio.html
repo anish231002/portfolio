@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Wadekar - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #9d9c9c, #9d9c9c);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: #40617e;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background: #adbab2;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px;
+        }
+
+        .skills, .projects, .experience {
+            margin: 20px 0;
+        }
+
+        .card {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #9695af;
+            color: white;
+        }
+
+        .interactive {
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .interactive:hover {
+            transform: scale(1.05);
+            background-color: #f5f7fa;
+        }
+
+        .profile-pic {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Resume-PhotoBlazer.jpeg" class="profile-pic">
+        <h1>Anish M. Wadekar</h1>
+        <p>Enthusiastic. Curious. Hardworking.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a highly motivated and detail-oriented individual with a passion for learning and growth.
+                I pride myself on being a proactive and adaptable professional with a strong foundation in leadership and an insatiable desire to learn. Throughout my career,
+                I’ve embraced challenges as opportunities for growth, confidently leading teams to achieve ambitious goals while fostering collaboration and innovation. 
+                I’ve always been quick to adapt to new roles, environments, and industries, seamlessly transitioning and mastering new skills or technologies to meet evolving demands. 
+                My curiosity and eagerness to learn drive me to stay ahead in an ever-changing professional landscape, continuously improving myself and the work I deliver. Whether navigating high-pressure situations, uniting cross-functional teams, or diving into unfamiliar territory to broaden my expertise, 
+                I remain committed to resilience, growth, and making a meaningful impact.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="card">
+            <h2>Technical Skills</h2>
+            <p>Languages: Java, Python, MySQL</p>
+            <p>Frameworks: Django, Spring</p>
+            <p>Developer Tools: VS Code, PyCharm, Eclipse</p>
+            <p>Libraries: NumPy, Matplotlib, Seaborn, React.Js, Node.js</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="card interactive">
+            <h2>Projects</h2>
+            <h3>Online Bookstore</h3>
+            <p>Technologies: Java-Spring Framework, React.js, MySQL</p>
+            <p><ul>
+                <li>Successfully completed this project in my graduation with my group.</li>
+                <li>Technologies used in this project are React, Java Spring-Hibernate Framework and MySQL.</li>
+                <li>We can Rent, Buy and sell books of our choice on this website and this also fulfils my lifelong dream to work in the field of literature..</li>
+            </ul></p>
+            <h3>E-Rase</h3>
+            <p>Technologies: React Redux, Java-Spring Framework, MySQL</p>
+            <p><ul>
+                <li>This is an ongoing project in my masters with my group.</li>
+                <li>Technologies used in this project are React Redux framework, Java-Spring Framework and MySQL.</li>
+                <li>Users can sell their electronic waste components to our website online by documenting pictures of the product and then placing a pickup order as well.</li>
+                <li>Based on the products quality, the sorting algorithm will decide where the product will go further to Recycle/ Refurbish or Manufacturer and Scrap. </li>
+            </ul></p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="card">
+            <h2>Experience</h2>
+            <h3>Python Developer Intern</h3>
+            <p>Felix IT Systems, March 2023 - August 2023</p>
+            <ul>
+                <li>Developed and implemented machine learning algorithms, focusing on K-means clustering and NLP.</li>
+                <li>Created an IELTS English AI trainer using ChatGPT API for dynamic learning experiences.</li>
+                <li>Integrated and optimized machine learning components in the IELTS AI trainer.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <h2>Contact Me</h2>
+            <p>Email: anish.wadekar2310@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anish-wadekar/">Anish Wadekar</a></p>
+            <p>Phone: +91 83299 11577</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Anish Wadekar</p>
+    </footer>
+</body>
+</html>
